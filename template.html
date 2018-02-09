@@ -83,21 +83,25 @@
         }
     </style>
 </head>
-<body style="font-family: 'Roboto', Arial, Helvetica, sans-serif !important;font-weight:400;font-size:13px;line-height:18px;padding: 0 !important;margin: 0 !important; background-color: #F7F7F7;">
+<body style="font-family: 'Roboto', Arial, Helvetica, sans-serif !important;font-weight:400;font-size:13px;line-height:18px;padding: 0 !important;margin: 0 !important; background-color: #F7F7F7; padding: 0; margin: 0;">
 <!--[if mso]>
 <style type=”text/css”>
     p, body, td, a, span {font-family: Arial, Helvetica, sans-serif !important;}
 </style>
 <![endif]-->
-<table style="width: 100%;" width="100%" cellpadding="0" cellspacing="0" border="0">
+<table style="width: 100%; background-color: #F7F7F7;" width="100%" cellpadding="0" cellspacing="0" border="0">
+
+
+
+
     <!-- Header -->
     <tr>
         <td bgcolor="#49075e" style="background-color: #49075e;">&nbsp;</td>
         <td bgcolor="#49075e" style="background-color: #49075e; width: 800px;" width="800">
             <table align="center" cellpadding="0" cellspacing="0" border="0" style="width: 100%;" width="100%">
                 <tr>
-                    <td style="padding: 12px 0 12px 12px; width: 34px;"><img alt="University of Queensland" height="50" src="uq-logo-white-minimal.png" style="height: 50px;"></td>
-                    <td style="padding: 12px 0 12px 12px;"><span style="font-size: 24px; line-height: 20px; font-weight: 100; color: #FFFFFF;" class="headerTitle">UQ eSpace Researcher Update</span></td>
+                    <td style="padding: 12px 0 12px 12px; width: 34px;"><img alt="University of Queensland" height="50" src="http://www.lanedigital.com/UQ/uq-logo-white-minimal.png" style="height: 50px;"></td>
+                    <td style="padding: 12px 0 12px 12px;"><span style="font-size: 24px; line-height: 20px; font-weight: 100; color: #FFFFFF;" class="headerTitle">UQ eSpace Thesis submission confirmation</span></td>
                     <td align="right" style="padding: 12px 12px 12px 0;">
                         <a href="http://espace.library.uq.edu.au" style="color: #FFFFFF; text-decoration: none;" target="_blank">
                             <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #2377CB; color: #FFFFFF; margin-left: 6px;">
@@ -113,167 +117,123 @@
         <td bgcolor="#49075e" style="background-color: #49075e;">&nbsp;</td>
     </tr>
     <!-- Header end -->
+
+
+
     <tr>
         <td>&nbsp;</td>
         <td style="width: 800px;" width="800">
             <table cellpadding="0" cellspacing="0" width="100%" border="0">
                 <tr>
                     <td style="background-color: #F7F7F7; padding: 24px;">
-                        <table cellpadding="0" cellspacing="0" border="0" id="introduction" style="margin: 0 auto; max-width: 800px;" width="100%">
+
+                        <!-- Welcome message -->
+                        <table cellpadding="12" cellspacing="0" border="0" id="introduction" style="margin: 0 auto; max-width: 800px;" width="100%">
                             <tr>
                                 <td valign="top">
-                                    <table align="right" cellpadding="12" cellspacing="0" border="0" class="linkTable" style="font-size: 18px; float: right; margin: 0 0 24px 12px;">
-
-                                        <!-- If the user has any publications that are possibly theirs -->
-                                        <tr>
-                                            <td align="center" style="background-color: #d82563; color: #FFF;">
-                                                <a href="#possible" style="text-decoration: none; color: #FFF;">8</a>
-                                            </td>
-                                            <td nowrap="nowrap" style="background-color: #FF5896;color: #FFF;">
-                                                <a href="#possible" style="text-decoration: none; color: #FFF;">Possible publications</a>
-                                            </td>
-                                        </tr>
-
-                                        <!-- If the user doesnt have an ORCiD linked -->
-                                        <tr>
-                                            <td align="center" style="background-color: #8cb400; color: #FFF; padding: 6px;">
-                                                <a href="#orcid" style="text-decoration: none;"><img alt="Alert!" src="ic_warning_black_24px.png"></a>
-                                            </td>
-                                            <td style="background-color: #A6CE1A; color: #FFF;">
-                                                <a href="#orcid" style="text-decoration: none; color: #FFF;">ORCiD Identifier</a>
-                                            </td>
-                                        </tr>
-
-                                        <!-- If the user has any publications claimed on their behalf -->
-                                        <tr>
-                                            <td align="center" style="background-color: #49075e; color: #FFF; width: 20px;">
-                                                <a href="#claimed" style="text-decoration: none; color: #FFF;">20</a>
-                                            </td>
-                                            <td nowrap="nowrap" style="background-color: #7C3A91; color: #FFF; font-weight: 300;">
-                                                <a href="#claimed" style="text-decoration: none; color: #FFF;">Publications claimed</a>
-                                            </td>
-                                        </tr>
-
-                                        <!-- If the user has any publications with decent trending stats -->
-                                        <tr>
-                                            <td align="center" style="background-color: #f46800; color: #FFF;">
-                                                <a href="#trending" style="text-decoration: none; color: #FFF;">6</a>
-                                            </td>
-                                            <td nowrap="nowrap" style="background-color: #FF9B33; color: #FFF;">
-                                                <a href="#trending" style="text-decoration: none; color: #FFF;">Trending publications</a>
-                                            </td>
-                                        </tr>
-
-                                    </table>
-
-                                    <!-- Welcome message -->
-                                    <p style="font-weight:bold; font-size: 16px;">Professor&nbsp;Brown,</p>
-                                    <p>This email contains recent activity in your UQ eSpace profile. To ensure you have an accurate and complete publication record in UQ eSpace could please review and action the following as appropriate.</p>
-                                    <p>Kind regards, UQ eSpace</p>
-                                    <!-- Welcome message end -->
-
+                                    <p style="font-weight:bold; font-size: 16px;">{Student name},</p>
+                                    <p>This is a confirmation that your recently submitted thesis to UQ eSpace has been received at {time} on {date}.</p>
                                 </td>
                             </tr>
                         </table>
-                        <hr style="margin: 24px auto 30px auto; opacity: 0.3; width: 100%;">
-                        <table cellpadding="0" cellspacing="0" border="0" id="activity" style="margin: 0 auto; max-width: 800px;" width="100%">
-                            <tr>
-                                <td style="padding: 0 0 24px 0;"><span style="font-size: 24px; font-weight: 300; color: #49075e;">Your eSpace activity this month</span></td>
-                            </tr>
-                            <tr>
-                                <td>
+                        <!-- Welcome message end -->
 
-                            <!-- Possible Pubs start -->
+                        <!-- Thesis details -->
+                        <table cellpadding="0" cellspacing="0" border="0" id="activity" style="margin: 0 auto; max-width: 800px;" width="100%">
                             <tr>
                                 <td colspan="2">
                                     <a id="possible" name="possible"></a>
 
                                     <!-- Possible pubs -->
-                                    <table cellpadding="24" cellspacing="0" border="0" width="100%">
+                                    <table cellpadding="24" cellspacing="0" border="0" width="100%" style="box-shadow: 0px 0px 15px rgba(0,0,0,0.1)">
 
                                         <tr>
-                                            <td style="background-color: #d82563;"><span style="font-size: 24px; line-height: 32px; font-weight: 100; color: #FFFFFF;">8 Possible publications for you to claim</span></td>
+                                            <td style="background-color: #2377CB;"><span style="font-size: 24px; line-height: 32px; font-weight: 100; color: #FFFFFF;">Thesis submission details</span></td>
                                         </tr>
                                         <tr>
-                                            <td style="background-color: #ebe0e4;">
-                                                <!-- Description-->
-                                                <p>These publications have are in UQ eSpace and we have identified them as potentially being your publications but have not linked them to your eSpace profile. Please claim or disclaim them as appropriate by visiting your <a href="http://espace.library.uq.edu.au/records/possible" style="color: #d82563; text-decoration: none; ">CLAIM POSSIBLE PUBLICATIONS</a> page. You can also suggest corrections and upload open access versions.</p>
+                                            <td style="background-color: #FFFFFF;">
                                                 <table cellpadding="12" cellspacing="0" border="0" width="100%">
-
-                                                    <!-- Record -->
                                                     <tr>
-                                                        <td colspan="2" style="border-bottom: 1px solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #d82563;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <table cellpadding="0" cellspacing="0" border="0">
-                                                                <tr>
-                                                                    <td valign="bottom">
-                                                                        <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">PID</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);"><a style="color: #2377CB;" href="{link to UQ:716917}" target="_blank">UQ:716917</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Author</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);"><a style="color: #2377CB;" href="{link to author}" target="_blank">Tamara Sopek</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Thesis title</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">Temperature Measurements in Hypervelocity Flows using Thermally-Assisted Laser-Induced Fluorescence</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">School, Centre or Institute</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);"><a style="color: #2377CB;" href="{link to school}" target="_blank">School of Mechanical and Mining Engineering</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Publication date</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">23rd January 2019</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Thesis type</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">PhD Thesis</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Supervisor(s)</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">
+                                                            A/Prof Tim McIntyre<br />
+                                                            Prof Richard Morgan<br />
+                                                            Dr Stefan Brieschenk
                                                         </td>
                                                     </tr>
-                                                    <!-- Record end -->
-
-                                                    <!-- Record -->
                                                     <tr>
-                                                        <td colspan="2" style="border-bottom: 1px solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #d82563;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <table cellpadding="0" cellspacing="0" border="0">
-                                                                <tr>
-                                                                    <td valign="bottom">
-                                                                        <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Subjects</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">
+                                                            <a style="color: #2377CB;" href="{link to subject}">0901 Aerospace Engineering</a><br />
+                                                            <a style="color: #2377CB;" href="{link to subject}">0205 Optical Physics</a>
                                                         </td>
                                                     </tr>
-                                                    <!-- Record end -->
-
-                                                    <!-- Record -->
                                                     <tr>
-                                                        <td colspan="2" style="border-bottom: 1px solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #d82563;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <table cellpadding="0" cellspacing="0" border="0">
-                                                                <tr>
-                                                                    <td valign="bottom">
-                                                                        <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Abstract/Summary</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">
+                                                            Scramjet engines with their very high specific impulse have the potential to outperform rocket motors as a means of propelling hypersonic vehicles. The scope of this project is to determine temperatures in the scramjet combustor using an advanced optical diagnostic technique, namely laser-induced fluorescence. Presently, direct temperature measurements are not readily available for scramjets, due to three reasons. Firstly, commonly-used gauges for temperature measurements, such as thermocouples and heat transfer gauges would not survive or would be damaged at the extreme temperatures typically occurring in scramjets (around T = 1100 - 2500 K), and therefore these gauges would not give accurate readings. Secondly, measurements with any gauges would be intrusive, and their presence in the flow might cause large disturbances. Thirdly, these gauges can only provide discrete, point measurements. Laser-induced fluorescence measurements present an optical non-intrusive technique to resolve temperatures in the combustor. Additionally, LIF measurements allow the temperatures in the combustor to be resolved at a higher spatial resolution than regular gauges. The new contribution made by this PhD project is the application of a sophisticated optical diagnostic technique, thermally-assisted laser-induced fluorescence, to the temperature measurements in the combustor of a supersonic combustion engine. The issues with the technique and the way it should be used for application to scramjet flows were explo#2377CB. This requi#2377CB the development of the new knowledge and understanding of the spectroscopy that underpins the technique. The project is significant because, to the author’s knowledge, this is the first time thermally-assisted LIF has been used for scramjet flows in a test facility. Currently available thermometry methods usually require averaged repeated experiments, thus causing high cost of experiments. This study represents successful single-shot scramjet temperature measurements. The project was approached theoretically (synthetic spectra), experimentally and numerically (CFD and LIF modelling). Radiation simulation programs providing synthetic OH spectra represent the theoretical part of this study, as they employ theoretical expressions for spectral calculations. The OH radical is an intermediate species in the combustion, created in high quantities, therefore allowing direct fluorescence measurements. In this work, three numerical codes were used - LIFBASE, SPARTAN and Photaura. SPARTAN and Photaura were modified in order to include the OH molecule. The results presented here show that OH spectra produced using these programs show very good agreement. All three programs give correct and reliable representation of the physical phenomena in the wavelength range studied. Experimental data was obtained through laser-induced fluorescence with a laser beam focused into the combustor exciting an OH molecule transition. The experiments were conducted in the T4 shock tunnel using a scramjet model. LIF measurements were performed to resolve temperatures in the combustor. The numerical aspect presented in the project are the results of Bricalli (2015), in the form of the computational fluid dynamics (CFD) simulations of the combustion process, which provided the indication of the phenomena occurring in the flow studied. Additionally, these results presented a valuable comparison to experimental temperature distribution. Detailed numerical modelling which simulates all radiative and collisional processes of relevance with the appropriate system of differential equations is requi#2377CB to accurately calculate the total molecular concentration and temperature from the observed fluorescence signal. Such numerical modelling, especially for the unsteady-state case, requires accurate knowledge on electronic quenching as well as information on vibrational and rotational energy transfer. Calculations of this type are necessary for analysis of the influence of energy transfer processes on the fluorescence signal. Thus, a detailed numerical model was developed for purpose of such analysis. The results of all aspects of the project were compa#2377CB to deduce the accuracy and reliability of the experimental results and the experimental technique. Comparison of the experimental spectra with the three synthetic spectra showed that the OH concentrations were only partially thermalised. Therefore, non-equilibrium spectral simulations had to be used. By evaluating the scramjet LIF spectra with a full spectral fit, a temperature distribution across the combustor width was obtained. The comparison of this temperature distribution with the CFD results showed a reasonable agreement between the experiments and CFD for one side of the scramjet, while the other side showed a significant discrepancy between the data. As both LIF and pressure experimental data indicated combustion in this region, while the CFD results showed no combustion occurrence, the CFD results were found to be an inadequate representation of the combustion in the used scramjet. The population distributions achieved with numerical modelling of the LIF process validated the approach used to deduce temperatures. This study produced a novel method for temperatures measurements in the scramjet combustor. The availability of a thermometry technique that provides temperature from a single run of a test facility is especially appealing considering the significant per-shot cost of running high enthalpy facilities. The outcome of the project brings new resources which can be further used in advancing the technology of operational scramjet engines for hypersonic vehicles.
                                                         </td>
                                                     </tr>
-                                                    <!-- Record end -->
+                                                    <tr>
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Keyword(s)</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">
+                                                            <a style="color: #2377CB;" href="{link to keyword}">laser-induced</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">fluorescence</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">thermometry</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">optics</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">hypersonics</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">scramjet</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">shock tunnel</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">supersonic combustion</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">air-breathing propulsion</a><br />
+                                                            <a style="color: #2377CB;" href="{link to keyword}">experimental</a><br />
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-weight: bold; border-bottom: 1px solid rgba(0, 0, 0, 0.1);" valign="top">Copyright agreement</td>
+                                                        <td style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">Value</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="font-weight: bold;" valign="top">Uploaded files</td>
+                                                        <td>
+                                                            s4298204_phd_correctedthesis.pdf (application/pdf - 5.81MB)<br />
+                                                            s4298204_phd_listofcorrections.pdf (application/pdf - 686.83KB)
+                                                        </td>
+                                                    </tr>
 
                                                 </table>
+
                                             </td>
                                         </tr>
                                         <!-- BUTTON -->
                                         <tr>
-                                            <td align="right" style="background-color: #ebe0e4; padding: 0 24px 12px 24px;">
-                                                <table cellpadding="6" cellspacing="0" border="0" style=" ">
-                                                    <tr>
-                                                        <td style=" color: #49075e; ">+ 3 more</td>
-                                                        <td style="padding: 6px;">
-                                                            <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #d82563; color: #FFFFFF; ">
-                                                                <tr>
-                                                                    <td style="padding: 12px 18px;">
-                                                                        <a href="https://development.library.uq.edu.au/espace/master/#/records/possible" style="text-decoration: none; color: #FFFFFF;">CLAIM YOUR WORK</a>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
+                                            <td align="right" style="background-color: #2377CB; padding: 0 24px 12px 24px;">
+
                                             </td>
                                         </tr>
                                         <!-- BUTTON end -->
@@ -281,425 +241,9 @@
 
                                 </td>
                             </tr>
-                            <!-- Possible pubs end -->
-
-                            <tr>
-                                <td>
-                                    <span style="line-height: 40px;">
-                                        &nbsp;
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <!-- Research IDs -->
-                            <tr>
-                                <td colspan="2">
-                                    <a id="orcid" name="orcid"></a>
-                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
-
-                                        <!-- No ORCiD ID -->
-                                        <tr>
-                                            <td>
-                                                <table cellpadding="24" cellspacing="0" border="0" width="100%">
-
-                                                    <tr>
-                                                        <td style="background-color: #8cb400;"><span style="font-size: 24px; line-height: 32px; font-weight: 100; color: #FFFFFF;">ORCID iD Identifier</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="background-color: #edf2d9;">
-                                                            <table cellpadding="6" cellspacing="0" border="0" width="100%">
-
-                                                                <tr>
-                                                                    <td>
-                                                                        <img align="left" alt="ORCiD" hspace="24" src="orcid_icon.png" style="float: left; height: 75px; width: 75px; margin: 0 24px 12px 0;" width="75" height="75">
-                                                                        <p>ORCID iD enables researchers to distinguish their research activities through unique identifiers, which automatically link to research activities and outputs.</p>
-                                                                        <p>If you already have an ORCID iD, <a href="#" style="color: #8cb400; text-decoration: none;">LINK YOUR ORCID iD IN ESPACE</a> or <a href="#" style="color: #8cb400; text-decoration: none;">GET AN ORCID iD</a></p>
-                                                                        </p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- BUTTON -->
-                                                    <tr>
-                                                        <td align="right" colspan="2" style="padding: 0 24px 12px 24px;background-color: #edf2d9;">
-                                                            <table>
-                                                                <tr>
-                                                                    <td>
-                                                                        <table cellpadding="6" cellspacing="0" border="0" style=" ">
-                                                                            <tr>
-                                                                                <td style="padding: 6px;">
-                                                                                    <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #8cb400; color: #FFFFFF; ">
-                                                                                        <tr>
-                                                                                            <td style="padding: 12px 16px;" valign="middle">
-                                                                                                <a href="https://app.library.uq.edu.au/#/id" style="text-decoration: none; color: #FFFFFF;">LINK YOUR ORCiD ID IN ESPACE</a>&nbsp;
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                    </table>
-                                                                                </td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                            <table>
-                                                                <tr>
-                                                                    <td>
-                                                                        <table cellpadding="6" cellspacing="0" border="0" style=" ">
-                                                                            <tr>
-                                                                                <td style="padding: 6px;">
-                                                                                    <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #8cb400; color: #FFFFFF; ">
-                                                                                        <tr>
-                                                                                            <td style="padding: 12px 16px;" valign="middle">
-                                                                                                <a href="https://app.library.uq.edu.au/#/id" style="text-decoration: none; color: #FFFFFF;">OR GET AN ORCID iD</a>&nbsp;
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                    </table>
-                                                                                </td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- BUTTON end -->
-
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <!-- No ORCiD ID end -->
-
-                                        <tr>
-                                            <td>
-                                                <span style="line-height: 40px;">
-                                                    &nbsp;
-                                                </span>
-                                            </td>
-                                        </tr>
-
-                                        <!-- Possible ORCiD ID -->
-                                        <tr>
-                                            <td>
-                                                <table cellpadding="24" cellspacing="0" border="0" width="100%">
-
-                                                    <tr>
-                                                        <td style="background-color: #8cb400;"><span style="font-size: 24px; line-height: 32px; font-weight: 100; color: #FFFFFF;">Is this your ORCID iD?</span></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="background-color: #edf2d9;">
-                                                            <table cellpadding="6" cellspacing="0" border="0" width="100%">
-                                                                <tr>
-                                                                    <td>
-                                                                        <table cellspacing="0" cellpadding="0" border="0" align="center">
-                                                                            <tr>
-                                                                                <td><a href="https://orcid.org/0000-0002-1825-0097" target="_blank"><img src="orcid_icon.png" style="height: 24px; width: 24px; margin: 0 6px 0 0;" width="24" height="24"></a></td>
-                                                                                <td><a href="https://orcid.org/0000-0002-1825-0097" target="_blank" style="font-size: 18px; color: #789f00; text-decoration: none;">https://orcid.org/0000-0002-1825-0097</a></td>
-                                                                            </tr>
-                                                                        </table>
-                                                                        <p>ORCID iD enables researchers to distinguish their research activities through unique identifiers, which automatically link to research activities and outputs.</p>
-                                                                        <p>If this is your ORCID iD, link it to UQ eSpace.</p>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- BUTTON -->
-                                                    <tr>
-                                                        <td align="right" colspan="2" style="padding: 0 24px 12px 24px;background-color: #edf2d9;">
-                                                            <table cellpadding="6" cellspacing="0" border="0" style=" ">
-                                                                <tr>
-                                                                    <td style="padding: 6px;">
-                                                                        <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #8cb400; color: #FFFFFF; ">
-                                                                            <tr>
-                                                                                <td style="padding: 12px 16px;" valign="middle">
-                                                                                    <a href="https://app.library.uq.edu.au/#/id" style="text-decoration: none; color: #FFFFFF;">LINK YOUR ORCID iD IN ESPACE</a>
-                                                                                </td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- BUTTON end -->
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <!-- Possible ORCiD ID end -->
-                                    </table>
-                                </td>
-                            </tr>
-                            <!-- Research IDs end -->
-
-                            <tr>
-                                <td>
-                                    <span style="line-height: 40px;">
-                                        &nbsp;
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <!-- New linked pubs -->
-                            <tr>
-                                <td>
-                                    <table cellpadding="24" cellspacing="0" width="100%" border="0">
-                                        <a id="claimed" name="claimed"></a>
-                                        <tr>
-                                            <td style="background-color: #49075e;"><span style="font-size: 24px; line-height: 32px; font-weight: 100; color: #FFFFFF;">20 new publications automatically linked to your profile</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color: #e8e0eb;">
-                                                <p>The following publications have been discovered in external databases and we have identified them as being your publications and have linked them to your eSpace profile. Please review them to ensure that this is correct. You can disclaim, suggest corrections and upload open access versions of these papers by clicking the FIX RECORD button</p>
-                                                <table cellpadding="12" cellspacing="0" border="0" width="100%">
-
-                                                    <!-- Record -->
-                                                    <tr>
-                                                        <td colspan="2" style="border-bottom: 1px solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #49075e;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <table cellpadding="0" cellspacing="0" border="0">
-                                                                <tr>
-                                                                    <td valign="bottom">
-                                                                        <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                                    </td>
-                                                                    <td valign="bottom" style="padding-left: 12px;">
-                                                                        <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #49075e; color: #FFFFFF;">
-                                                                            <tr>
-                                                                                <td style="padding: 12px 18px;"><a href="#" style="text-decoration: none; color: #FFFFFF; white-space: nowrap;">FIX&nbsp;RECORD</a></td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-
-                                                        </td>
-                                                    </tr>
-                                                    <!-- Record end -->
-
-                                                    <!-- Record -->
-                                                    <tr>
-                                                        <td colspan="2" style="border-bottom: 1px solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #49075e;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <table cellpadding="0" cellspacing="0" border="0">
-                                                                <tr>
-                                                                    <td valign="bottom">
-                                                                        <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                                    </td>
-                                                                    <td valign="bottom" style="padding-left: 12px;">
-                                                                        <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #49075e; color: #FFFFFF;">
-                                                                            <tr>
-                                                                                <td style="padding: 12px 18px;"><a href="#" style="text-decoration: none; color: #FFFFFF; white-space: nowrap;">FIX&nbsp;RECORD</a></td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-
-                                                        </td>
-                                                    </tr>
-                                                    <!-- Record end -->
-
-                                                    <!-- Record -->
-                                                    <tr>
-                                                        <td colspan="2" style="border-bottom: 1px solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #49075e;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <table cellpadding="0" cellspacing="0" border="0">
-                                                                <tr>
-                                                                    <td valign="bottom">
-                                                                        <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                                    </td>
-                                                                    <td valign="bottom" style="padding-left: 12px;">
-                                                                        <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #49075e; color: #FFFFFF;">
-                                                                            <tr>
-                                                                                <td style="padding: 12px 18px;"><a href="#" style="text-decoration: none; color: #FFFFFF; white-space: nowrap;">FIX&nbsp;RECORD</a></td>
-                                                                            </tr>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-
-                                                        </td>
-                                                    </tr>
-                                                    <!-- Record end -->
-
-
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <!-- BUTTON -->
-                                        <tr>
-                                            <td align="right" style="background-color: #e8e0eb; padding: 0 24px 12px 24px;">
-                                                <table cellpadding="0" cellspacing="0" border="0" >
-                                                    <tr>
-                                                        <td style=" color: #49075e; ">+ 15 more</td>
-                                                        <td style="padding: 6px;">
-                                                            <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #49075e; color: #FFFFFF; ">
-                                                                <tr>
-                                                                    <td style="padding: 12px;">
-                                                                        &nbsp;<a href="https://development.library.uq.edu.au/espace/master/#/records/mine" style="text-decoration: none; color: #FFFFFF;">REVIEW&nbsp;YOUR&nbsp;PUBLICATIONS</a>&nbsp;
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <!-- BUTTON end -->
-                                    </table>
-                                </td>
-                            </tr>
-                            <!-- New linked pubs end -->
-
-                            <tr>
-                                <td>
-                                    <span style="line-height: 40px;">
-                                        &nbsp;
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <!-- Trending pubs -->
-                            <tr>
-                                <td colspan="2">
-                                    <a id="trending" name="trending"></a>
-                                    <table cellpadding="24" cellspacing="0" width="100%" border="0">
-                                        <tr>
-                                            <td style="background-color: #f46800;"><span style="font-size: 24px; line-height: 32px; font-weight: 100; color: #FFFFFF;">6 publications that are being cited or being shared on social media</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td style="background-color: #f2e4d9;">
-                                                <p><b>WOS and Scopus</b> - The large number is the total citation count and the + (plus) value indicates how much the citation count has increased in the last month.</p>
-                                                <p><b>Altmetric score (social media activity)</b> - The Altmetric score measures social media activity. The + (plus) value shows the increase in social media activity in the last month.</p>
-
-                                                <table cellpadding="12" cellspacing="0" width="100%" border="0">
-                                                    <tr><td style="padding-top: 20px;">
-                                                        <span style="font-size: 18px; color: #ad4d00;"><img src="thomson_icon.png" width="18" height="18" style="width: 18px; height: 18px;"> Web of Science citation count</span>
-                                                    </td></tr>
-
-                                                    <!-- Record -->
-                                                    <tr>
-                                                        <td style="border-bottom: 0 solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #f46800;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                        </td>
-                                                        <td nowrap style="padding-top: 24px;border-bottom: 0 solid #e2cdae;" valign="top">
-                                                            <a href="http://apps.webofknowledge.com.ezproxy.library.uq.edu.au/InboundService.do?product=WOS&Func=Frame&DestFail=http%3A%2F%2Fwww.webofknowledge.com%3FDestApp%3DCEL%26DestParams%3D%253Faction%253Dsearch%2526viewType%253Dsummary%2526mode%253DCitingArticles%2526product%253DCEL%2526UT%253DWOS%253A000389140200005%2526customersID%253Duqueensland%26e%3DqKKWGz8QurWRydsFD.AO9Cub_NLP7anssNkBg7W2rrGmVSpI7s1Zdrf09LlA_OSn%26SrcApp%3Dresolve1%26SrcAuth%3Duqueensland&SrcApp=resolve1&SrcAuth=uqueensland&SID=F6HNOTXgV1dTc47bAE3&mode=CitingArticles&customersID=uqueensland&smartRedirect=yes&IsProductCode=Yes&Init=Yes&viewType=summary&action=search&UT=WOS%3A000389140200005" style="text-decoration: none;">
-                                                                <span style="font-size: 36px; color: #f46800; ">7</span><span style="font-size: 22px; vertical-align: top; color: #ffa866; ">+3</span>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- Record end -->
-
-                                                    <!-- Record -->
-                                                    <tr>
-                                                        <td style="border-bottom: 0 solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #f46800;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                        </td>
-                                                        <td nowrap style="padding-top: 24px;border-bottom: 0 solid #e2cdae;" valign="top">
-                                                            <a href="http://apps.webofknowledge.com.ezproxy.library.uq.edu.au/InboundService.do?product=WOS&Func=Frame&DestFail=http%3A%2F%2Fwww.webofknowledge.com%3FDestApp%3DCEL%26DestParams%3D%253Faction%253Dsearch%2526viewType%253Dsummary%2526mode%253DCitingArticles%2526product%253DCEL%2526UT%253DWOS%253A000389140200005%2526customersID%253Duqueensland%26e%3DqKKWGz8QurWRydsFD.AO9Cub_NLP7anssNkBg7W2rrGmVSpI7s1Zdrf09LlA_OSn%26SrcApp%3Dresolve1%26SrcAuth%3Duqueensland&SrcApp=resolve1&SrcAuth=uqueensland&SID=F6HNOTXgV1dTc47bAE3&mode=CitingArticles&customersID=uqueensland&smartRedirect=yes&IsProductCode=Yes&Init=Yes&viewType=summary&action=search&UT=WOS%3A000389140200005" style="text-decoration: none;">
-                                                                <span style="font-size: 36px; color: #f46800; ">7</span><span style="font-size: 22px; vertical-align: top; color: #ffa866; ">+3</span>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- Record end -->
-
-                                                    <tr><td>
-                                                        <span style="font-size: 18px; color: #ad4d00; padding-top: 10px;"><img src="scopus_icon.png" width="18" height="18" style="width: 18px; height: 18px;"> Scopus citation count</span>
-                                                    </td></tr>
-
-                                                    <!-- Record -->
-                                                    <tr>
-                                                        <td style="border-bottom: 0 solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #f46800;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                        </td>
-                                                        <td nowrap style="padding-top: 24px;border-bottom: 0 solid #e2cdae;" valign="top">
-                                                            <a href="https://www-scopus-com.ezproxy.library.uq.edu.au/results/citedbyresults.uri?sort=plf-f&cite=2-s2.0-85027264358&src=s&sot=cite&sdt=a" style="text-decoration: none;">
-                                                                <span style="font-size: 36px; color: #f46800; ">7</span><span style="font-size: 22px; vertical-align: top; color: #ffa866; ">+3</span>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- Record end -->
-
-                                                    <tr><td>
-                                                        <span style="font-size: 18px; color: #ad4d00; padding-top: 10px;"><img src="altmetric_icon.png" width="18" height="18" style="width: 18px; height: 18px;"> Altmetric score</span>
-                                                    </td></tr>
-
-                                                    <!-- Record -->
-                                                    <tr>
-                                                        <td style="border-bottom: 0 solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #f46800;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                        </td>
-                                                        <td nowrap style="padding-top: 24px;border-bottom: 0 solid #e2cdae;" valign="top">
-                                                            <a href="https://www.altmetric.com/details/23549518" style="text-decoration: none;">
-                                                                <span style="font-size: 36px; color: #f46800; ">7</span><span style="font-size: 22px; vertical-align: top; color: #ffa866; ">+3</span>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- Record end -->
-
-                                                    <!-- Record -->
-                                                    <tr>
-                                                        <td style="border-bottom: 0 solid #d1c2d6;">
-                                                            <a href="#" style="text-decoration: none;">
-                                                                <span style="font-size: 18px; text-decoration: none; color: #f46800;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis laoreet urna. Pellentesque quis faucibus metus.</span>
-                                                            </a>
-                                                            <span style=" padding-top: 6px; font-size: 12px; line-height: 13px;">Cras in ultricies dui. Proin varius ipsum eu tempor posuere. Donec id mauris mollis, condimentum sapien a, porttitor sapien. Donec interdum magna quis nisl aliquam posuere. Sed massa elit, hendrerit ac consequat sed.</span>
-                                                        </td>
-                                                        <td nowrap style="padding-top: 24px;border-bottom: 0 solid #e2cdae;" valign="top">
-                                                            <a href="https://www.altmetric.com/details/23549518" style="text-decoration: none;">
-                                                                <span style="font-size: 36px; color: #f46800; ">7</span><span style="font-size: 22px; vertical-align: top; color: #ffa866; ">+3</span>
-                                                            </a>
-                                                        </td>
-                                                    </tr>
-                                                    <!-- Record end -->
-
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <!-- BUTTON -->
-                                        <tr>
-                                            <td align="right" colspan="2" style="padding: 0 24px 12px 24px;background-color: #f2e4d9;">
-
-                                                <table cellpadding="6" cellspacing="0" border="0" style=" ">
-                                                    <tr>
-                                                        <td style="padding: 6px;">
-                                                            <table cellpadding="6" cellspacing="0" border="0" style=" background-color: #f46800; color: #FFFFFF; ">
-                                                                <tr>
-                                                                    <td style="padding: 12px 18px;">
-                                                                        <a href="https://development.library.uq.edu.au/espace/master/#/dashboard" style="text-decoration: none; color: #FFFFFF;">SEE&nbsp;MORE&nbsp;DASHBOARD&nbsp;STATS</a>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                        <!-- BUTTON end -->
-                                    </table>
-                                </td>
-                            </tr>
-                            <!-- Trending pubs end-->
-
                         </table>
+                        <!-- Thesis details end -->
+
                     </td>
                 </tr>
 
@@ -711,7 +255,7 @@
     <tr>
         <td bgcolor="#49075e" style="background-color: #49075e;">&nbsp;</td>
         <td bgcolor="#49075e" style="background-color: #49075e;width: 800px;" width="800" align="center">
-            <a href="http://www.library.uq.edu.au" title="Visit the UQ Library website"><img alt="University of Queensland" src="uq-library-logo-white.png" style="height: 70px; padding: 12px 0;" vspace="12" height="70"></a>
+            <a href="http://www.library.uq.edu.au" title="Visit the UQ Library website"><img alt="University of Queensland" src="http://www.lanedigital.com/UQ/uq-library-logo-white.png" style="height: 70px; padding: 12px 0;" vspace="12" height="70"></a>
         </td>
         <td bgcolor="#49075e" style="background-color: #49075e;">&nbsp;</td>
     </tr>
